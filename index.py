@@ -1,0 +1,7 @@
+idade=int(input('qual sua idade:'))
+if idade < 13:
+    print('criança')
+elif idade < 18:
+    print('adolecente')
+else:
+    print('adulto')        
